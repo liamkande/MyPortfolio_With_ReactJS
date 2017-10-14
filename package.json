@@ -24,6 +24,7 @@
     "eject": "react-scripts eject"
   },
   "description": "My portfolio with React and related tools.",
+  "homepage" : "http://liamkande.com",
   "main": "index.js",
   "repository": "https://github.com/liamkande/MyPortfolio_With_ReactJS",
   "author": "Liam Ansoumane Kande",

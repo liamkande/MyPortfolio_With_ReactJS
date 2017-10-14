@@ -22,6 +22,9 @@ class ProjectList extends Component {
           image: "images/thumbnail-SVG/thumbnail-4.svg"
       },
       {
+          name: "placeHolder"
+      },
+      {
           name: "React Calculator",
           skills: "React.js |CSS3 | ES6 | JSX | JavaScript | jest",
           downloadLink: "https://github.com/liamkande/React-Calculator/archive/master.zip",
@@ -41,7 +44,7 @@ class ProjectList extends Component {
       },
       {
           name: "Travel Activity App with React",
-          skills: "React.js | Redux | JSX | JavaScript | SASS | Webpack | NodeJS | Babel",
+          skills: "React.js | Redux | JSX | SASS | Webpack | NodeJS | Babel",
           downloadLink: "https://github.com/liamkande/TravelDayCount_React_App/archive/master.zip",
           boxClass: "col-md-4 col-lg-4 box-three boxwrapper text-center",
           pClass:"text-center detail",
@@ -53,7 +56,7 @@ class ProjectList extends Component {
       },
       {
           name: "Collapsible UI With React",
-          skills: "React.js | SASS | JavaScript | Webpack | NodeJS | Babel | Yarn",
+          skills: "React.js | SASS | JavaScript | Webpack | NodeJS | Babel",
           downloadLink: "https://github.com/liamkande/Collapsible-Component-With-React/archive/master.zip",
           boxClass: "col-md-4 col-lg-4 box-three boxwrapper text-center",
           pClass:"text-center detail",
@@ -62,7 +65,7 @@ class ProjectList extends Component {
       },
       {
           name: "Fetching Data UI With React",
-          skills: "React.js | API | SASS | JavaScript | Webpack | NodeJS | Babel | Yarn",
+          skills: "React.js | API | SASS | JavaScript | NodeJS ",
           downloadLink: "https://github.com/liamkande/Fetching-Data-With-ReactJS/archive/master.zip",
           boxClass: "col-md-4 col-lg-4 box-four boxwrapper text-center",
           pClass:"text-center detail",
@@ -102,7 +105,7 @@ class ProjectList extends Component {
       },
       {
           name: "Responsive Design with Bootstrap",
-          skills: "Bootstrap | Responsive Design | HTML | CSS | JavaScript",
+          skills: "Bootstrap | HTML | CSS | JavaScript",
           downloadLink: "https://s3.us-east-2.amazonaws.com/liamkande.com/projects/Responsive_Design_with_Bootstrap.zip",
           boxClass: "col-md-4 col-lg-4 box-four boxwrapper text-center",
           pClass:"text-center detail",

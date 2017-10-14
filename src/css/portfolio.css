@@ -170,6 +170,9 @@ footer {
 .boxwrapper {
 	border: thick outset ;
 }
+.boxwrapper:hover .detail{
+	visibility: visible;
+}
 .imgwrapper {
 	border: thick outset #4A4A4A;
 }
@@ -193,6 +196,7 @@ footer {
 .detail {
 	visibility: hidden;
 }
+
 
 @media (max-width:439px) {
 .boxwrapper {
