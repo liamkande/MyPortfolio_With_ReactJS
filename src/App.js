@@ -31,10 +31,14 @@ componentDidMount () {
         <NavBar />
         <Switch>
         <Route exact path="/" component={About} />
-        <Route path="/portfolio" render={() => <div>
-          <Jumbotron />,
-          <CarouselImg/>,
-          <ProjectsList projects={data} /> </div> } />
+        <Route path="/portfolio" render={() =>
+          <div className="row">
+            <div className="col-lg-10 col-lg-offset-1">
+              <Jumbotron />
+              <CarouselImg/>
+              <ProjectsList projects={data} />
+            </div>
+          </div> } />
         </Switch>
       </div>
       </BrowserRouter>
