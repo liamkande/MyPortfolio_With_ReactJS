@@ -1,10 +1,10 @@
 {
-  "short_name": "LK-Portfolio",
-  "name": "Liam Kande | Portfolio",
+  "short_name": "Portfolio",
+  "name": "Liam Kande Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "128x128",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],

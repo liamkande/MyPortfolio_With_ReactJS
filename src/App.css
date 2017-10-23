@@ -1,23 +1,22 @@
 
 @charset "UTF-8";
+
 body {
 	padding: 45px 0 0 0;
 	background-color: #ADADAD;
-	background-image: url('https://s3.us-east-2.amazonaws.com/liamkande.com/images/bkgd.jpg');
+	background-image: url('./images/bkgd.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: actor;
 	font-style: normal;
 	font-weight: 400;
 	height: 100%;
+	width: 100%;
 	margin: 0;
 }
+
 html, body {
 	height: 100%;
-}
-
-.crl {
-	max-height: 90vh;
 }
 
 .container-fluid .navbar-header .navbar-brand {
@@ -44,6 +43,7 @@ html, body {
 	font-size: x-large;
 	font-weight: normal;
 	text-decoration: none;
+	color: black;
 	text-shadow: 2px 2.5px 8.5px #A4A4A4;
 }
 
@@ -115,10 +115,6 @@ footer {
 	bottom: 0px;
 }
 
-.jumb-text {
-	padding-left: 20%;
-	padding-right: 20%;
-}
 .box-one {
 	background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0.81) 0%, rgba(85,158,162,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg, rgba(255,255,255,0.81) 0%, rgba(151,162,233,0.79) 100%);
@@ -166,7 +162,21 @@ footer {
 	background-image: linear-gradient(180deg, rgba(105,105,105,0.90) 0.13%, rgba(255,255,255,0.64) 100%);
 	text-shadow: 4px 5px 17px #000000;
 }
+.dropdown-toggle:active, .open .dropdown-toggle {
+		background: none !important;
+		color:#000 !important;
+}
 
+.dropdown-menu>li>a:hover, .active > a:hover {background: none !important}
+
+.jumbo {
+	background-color: rgba(255,255,255,0.81);
+  border-radius: 12px;
+}
+
+.crl {
+	width: 100%;
+}
 .boxwrapper {
 	border: thick outset ;
 }

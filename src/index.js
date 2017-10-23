@@ -1,12 +1,12 @@
+import 'array.prototype.fill'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
-import './css/portfolio.css'
-import routes from './routes'
+import './App.css'
+import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 
+require('es6-promise').polyfill()
 
-window.React = React
-
-ReactDOM.render(routes, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
